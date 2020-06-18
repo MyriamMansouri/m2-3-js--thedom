@@ -1,5 +1,6 @@
 main {
   padding: 0 36px;
+  font-family: 'Roboto', sans-serif;
 }
 .track {
   list-style-type: none;
@@ -11,10 +12,10 @@ main {
   background: green;
   display: flex;
   align-items: center;
-  height: 80px;
+  height: 100px;
   border-bottom: 2px dashed #fff;
   position: relative;
-  width: calc(100% - 50px);
+  width: calc(100% - 80px);
 }
 
 .track li:last-child {
@@ -26,7 +27,7 @@ main {
   align-items: center;
   position: absolute;
   left: -24px;
-  height: 80px;
+  height: 100px;
 }
 
 .length {
@@ -36,10 +37,11 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: calc(100% - 50px);
+  width: calc(100% - 80px);
 }
 .length-value {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: #fff;
@@ -53,8 +55,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   position: relative;
   left: 0;
   transition: all ease-out 300ms;
